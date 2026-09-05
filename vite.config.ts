@@ -5,3 +5,16 @@ import { solidStart } from "@solidjs/start/config";
 export default defineConfig({
   plugins: [solidStart(), nitro()],
 });
+
+import { defineConfig } from "vite";
+import solid from "solid-start/vite";
+
+
+export default defineConfig({
+      plugins: [
+         solid({
+         preset: "static"
+      })
+    ]
+ });
+      
