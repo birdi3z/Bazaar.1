@@ -1,0 +1,23 @@
+{
+  "name": "bazaar-solidstart",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "latest",
+    "@solidjs/start": "latest",
+    "nitro": "latest",
+    "solid-js": "latest"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0"
+  }
+}
