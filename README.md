@@ -34,3 +34,4 @@ npm run preview
 The original `window.storage` persistence API is retained when available and now falls back to browser `localStorage`, with SSR-safe guards so SolidStart can render on the server.
 
 The existing Alpha Vantage / Anthropic / Stripe / Zapier integrations remain client-side integrations from the source app; they were not converted into SolidStart server functions in this pass.
+.
